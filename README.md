@@ -8,7 +8,7 @@ This project trains a character-level language model to generate legal-style tex
 - **`data_loader.py`**: Module to load and preprocess the text data.
 - **`model.py`**: Module to define and build the TensorFlow model.
 - **`utils.py`**: Helper functions for text generation and prediction.
-- **`checkpoints/`**: Directory to store model checkpoints.
+- **`checkpoints/`**: *private* when you run the code, you can create a separate directory to store model checkpoints.
 
 ## Usage
 1. Place your legal PDF documents in the `data/` folder.
